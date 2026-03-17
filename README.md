@@ -4,9 +4,7 @@
 
 </div>
 
-<video width="600" controls>
-  <source src="videos/video_explainer_v20260312.mp4" type="video/mp4">
-</video>
+![](videos/video_explainer_v20260312.mp4)
 
 ## ✨ Introduction
 
