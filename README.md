@@ -12,6 +12,8 @@ Hyperspectral in situ sensing has shown promise in retrieving water biogeochemic
 
 ## 🎬 Video Explainer
 
+Please Watch the video below for an explanation of this work.
+
 <p align="center">
   <video src="https://github.com/user-attachments/assets/a4c4fd51-6f26-4a0d-aee6-08372567995d"
          controls
@@ -40,7 +42,7 @@ conda activate wqmeta
 pip install -r requirements.txt
 ```
 
-- Train the demo codde:
+- Run the demo code:
 
 ```
 python demo_run.py --data_dir datasets
