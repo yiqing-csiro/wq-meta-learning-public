@@ -46,34 +46,6 @@ This software is licensed under a BSD-style license.
 ___________________________________________________________________
 ___________________________________________________________________
 
-scipy https://github.com/scipy/scipy
-
-This software is licensed under the BSD-style license.
-
-___________________________________________________________________
-___________________________________________________________________
-
-Shapely https://github.com/shapely/shapely
-
-This software is licensed under the BSD-style license.
-
-___________________________________________________________________
-___________________________________________________________________
-
-matplotlib https://github.com/matplotlib/matplotlib
-
-This software is licensed under the BSD-style license.
-
-___________________________________________________________________
-___________________________________________________________________
-
-rasterio https://github.com/rasterio/rasterio
-
-This software is licensed under the BSD-style license.
-
-___________________________________________________________________
-___________________________________________________________________
-
 scikit-learn https://github.com/scikit-learn/scikit-learn
 
 This software is licensed under the BSD-style license.
@@ -86,12 +58,5 @@ pandas https://github.com/pandas-dev/pandas
 This software is licensed under the BSD-style license.
 
 ___________________________________________________________________
-___________________________________________________________________
-
-pyproj https://github.com/pyproj4/pyproj
-
-This software is licensed under the MIT license.
-
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
