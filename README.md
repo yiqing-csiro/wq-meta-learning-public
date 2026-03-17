@@ -12,7 +12,7 @@ Hyperspectral in situ sensing has shown promise in retrieving water biogeochemic
 
 ## 🎬 Video Explainer
 
-[![Demo Video](figures/video_preview.png)](https://raw.githubusercontent.com/yiqing-csiro/wq-meta-learning-public/main/videos/video_explainer_v20260312.mp4)
+[![Demo Video](figures/video_preview.png)](videos/video_explainer_v20260312.mp4)
 
 ## 📢 News
 
