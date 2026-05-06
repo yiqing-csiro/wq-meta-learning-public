@@ -1,6 +1,6 @@
 <div align="center">
 
-# Region-adaptable water quality retrieval from in situ hyperspectral data using physics-aware meta-learning
+# Region-adaptable retrieval of coastal biogeochemical parameters from near-surface hyperspectral remote sensing reflectance using physics-aware meta-learning
 
 </div>
 

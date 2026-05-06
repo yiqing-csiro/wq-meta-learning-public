@@ -301,5 +301,56 @@
   const start = (location.hash.match(/slide-(\d+)/)||[])[1];
   show(start ? Number(start)-1 : 0);
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlide(index) {
+        if (index < 0 || index >= slides.length) return;
+        currentSlide = index;
+        slides[currentSlide].scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }
+
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowDown" || event.key === "PageDown") {
+            event.preventDefault();
+            showSlide(Math.min(currentSlide + 1, slides.length - 1));
+        }
+        if (event.key === "ArrowUp" || event.key === "PageUp") {
+            event.preventDefault();
+            showSlide(Math.max(currentSlide - 1, 0));
+        }
+    });
+
+    let wheelTimeout = null;
+    window.addEventListener("wheel", function (event) {
+        clearTimeout(wheelTimeout);
+
+        wheelTimeout = setTimeout(() => {
+            if (event.deltaY > 0) {
+                showSlide(Math.min(currentSlide + 1, slides.length - 1));
+            } else if (event.deltaY < 0) {
+                showSlide(Math.max(currentSlide - 1, 0));
+            }
+        }, 80);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                currentSlide = Array.from(slides).indexOf(entry.target);
+            }
+        });
+    }, { threshold: 0.6 });
+
+    slides.forEach(slide => observer.observe(slide));
+});
+</script>
+
 </body>
 </html>
