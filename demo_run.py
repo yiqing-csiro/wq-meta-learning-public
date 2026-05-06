@@ -17,7 +17,7 @@ EPS_POS = 1e-16
 
 OUT_DIR = "outputs"
 MAX_STEPS = 10
-N_FOLDS = 5
+N_FOLDS = 10
 LR = 1e-4
 
 os.makedirs(OUT_DIR, exist_ok=True)
