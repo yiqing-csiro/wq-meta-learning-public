@@ -12,13 +12,13 @@ Hyperspectral in situ sensing has shown promise in retrieving aquatic biogeochem
 
 ## 🎬 Sildes
 
-Please see the slides below for an explanation of this work.
+Please see below the slides of this work.
 
 [Slides](https://yiqing-csiro.github.io/wq-meta-learning-public/slides/)
 
 ## 📢 News
 
-[2026-03] The preprint manuscript is now available on arXiv.
+[2026-05] The slides of this work are now available.
 
 [2026-03] The demo code is released; The pretrained model is available at ./models/ ; The demo datasets are available at ./datasets/ .
 
