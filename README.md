@@ -71,4 +71,4 @@ While preparing this manuscript, the authors used Generative AI to improve langu
 
 ## 📪 Contact
 
-If you have any question, please contact [yiqing.guo@csiro.au]().
+If you have any questions, please contact [yiqing.guo@csiro.au]().
